@@ -1,0 +1,43 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+form{
+    align-content: center;
+}
+body{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin_button{
+    background-color: orange;
+}
+
+.login_box{
+    background-color: white;
+    height: fit-content;   
+    border: solid silver;
+    border-width: 1px;
+    padding: 5%;
+}
+.terms{
+    font-size: smaller;
+}
+.register_button{
+    font-size: smaller;
+}
+.need_register{
+    font-size: smaller;
+    color: grey;
+}
+
+.outside_box{
+    display:grid;
+    align-items: center;
+}
+
+.footer{
+    justify-content: space-evenly;
+    font-size: x-small;
+}
